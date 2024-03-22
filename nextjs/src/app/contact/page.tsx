@@ -3,7 +3,7 @@
 import { Meteors } from "@/components/ui/meteors";
 import { useState } from "react";
 
-export default function page() {
+export default function ContactUs() {
 const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
