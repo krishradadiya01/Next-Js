@@ -7,7 +7,8 @@
         "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
         "price": 99.99,
         "instructor": "John Doe",
-        "isFeatured": true
+        "isFeatured": true,
+        "image": "/coursesImages/guitar.jpg" 
       },
       {
         "id": 2,
@@ -16,7 +17,8 @@
         "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
         "price": 109.99,
         "instructor": "Jane Smith",
-        "isFeatured": false
+        "isFeatured": false,
+        "image": "/coursesImages/piano.jpg" 
       },
       {
         "id": 3,
@@ -25,7 +27,8 @@
         "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
         "price": 119.99,
         "instructor": "Emily Johnson",
-        "isFeatured": true
+        "isFeatured": true,
+        "image": "/coursesImages/vocalist.jpg" 
       },
       {
         "id": 4,
@@ -34,7 +37,8 @@
         "description": "Master the drums with our comprehensive course covering all skill levels.",
         "price": 129.99,
         "instructor": "Mike Brown",
-        "isFeatured": false
+        "isFeatured": false,
+        "image": "/coursesImages/drumming.jpg"
       },
       {
         "id": 5,
@@ -43,16 +47,18 @@
         "description": "Learn the art of jazz improvisation with this course designed for all levels.",
         "price": 139.99,
         "instructor": "Chris Davis",
-        "isFeatured": false
+        "isFeatured": false,
+        "image": "/coursesImages/jazz.jpg"
       },
       {
         "id": 6,
         "title": "Music Production Fundamentals",
         "slug": "music-production-fundamentals",
-        "description": "Dive into music production with this introductory course on the basics of sound engineering",
+        "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
         "price": 149.99,
         "instructor": "Alex Wilson",
-        "isFeatured": true
+        "isFeatured": true,
+        "image": "/coursesImages/music-prod.jpg"
       },
       {
         "id": 7,
@@ -61,7 +67,8 @@
         "description": "Learn the essentials of songwriting to express your musical creativity.",
         "price": 159.99,
         "instructor": "Samantha Miller",
-        "isFeatured": false
+        "isFeatured": false,
+        "image": "/coursesImages/song-writing.jpg"
       },
       {
         "id": 8,
@@ -70,7 +77,8 @@
         "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
         "price": 169.99,
         "instructor": "Luke Harris",
-        "isFeatured": true
+        "isFeatured": true,
+        "image": "/coursesImages/music-prod.jpg"
       },
       {
         "id": 9,
@@ -79,7 +87,8 @@
         "description": "Explore the rich history of classical music from its origins to the present day.",
         "price": 179.99,
         "instructor": "Grace Lee",
-        "isFeatured": false
+        "isFeatured": false,
+        "image": "/coursesImages/classical-music.jpg"
       },
       {
         "id": 10,
@@ -88,7 +97,8 @@
         "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
         "price": 189.99,
         "instructor": "Ethan Moore",
-        "isFeatured": true
+        "isFeatured": true,
+        "image": "/coursesImages/blues.jpg"
       }
     ]
   }
