@@ -29,7 +29,7 @@ export default function FeaturedSection() {
                 </p>
             </div>
         </div>
-        <div className='mt-10'>
+        <div className='mt-10 sm:px-10'>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
                  gap-8 justify-center'>
                 {featuredCourses.map((item: musicCourse) => (
@@ -39,8 +39,9 @@ export default function FeaturedSection() {
                       <div className='p-4 sm:p-6 flex flex-col items-center text-center flex-grow'>
                         <p className='text-lg sm:text-xl text-black mt-2 mb-2 dark:text-neutral-200'>{item.title}</p>
                         <p className='text-sm text-neutral-600 dark:text-neutral-400 flex-grow'>{item.description}</p>
-                        <Link className='mt-3 font-medium' href={`/courses/${item.slug}`}>
-                           Learn More
+                        <Link className='mt-5 px-3 py-1 rounded border border-neutral-600 text-neutral-700 bg-white
+                              hover:bg-gray-100' href={`/courses/${item.slug}`}>
+                              Learn More
                         </Link>
                       </div>
                     </BackgroundGradient>
@@ -49,7 +50,7 @@ export default function FeaturedSection() {
             </div>
         </div>
         <div className='mt-20 text-center'>
-          <Link href={'/courses'} className='px-4 py-2 rounded border
+          <Link href={'/courses'} className='px-4 py-2 rounded border font-medium
                border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100'>
                View All Courses
           </Link>
